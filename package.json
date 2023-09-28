@@ -1,4 +1,5 @@
 {
+  "homepage": "https://JayaRamSamavedam.github.io/smart-india-hackathon",
   "name": "smart-india-hackathon",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "axios": "^1.5.0",
-    "gh-pages": "^6.0.0",
     "google-translate-api-x": "^10.6.7",
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",
@@ -29,6 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ,
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -53,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-router-dom": "^6.16.0",
     "tailwindcss": "^3.3.3"
   }
