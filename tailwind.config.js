@@ -5,7 +5,7 @@ module.exports = {
     './components/**/*.{html,js}',
   ],
   
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+ 
   darkMode: 'class', // enable dark mode
   theme: {
     extend: {
