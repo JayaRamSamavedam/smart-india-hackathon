@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/smart-india-hackathon/static/css/main.672ab607.css",
+    "main.js": "/smart-india-hackathon/static/js/main.865f234f.js",
+    "static/js/787.ae6287d9.chunk.js": "/smart-india-hackathon/static/js/787.ae6287d9.chunk.js",
+    "static/media/him2.jpg": "/smart-india-hackathon/static/media/him2.dbc37a7350937befe645.jpg",
+    "static/media/him1.jpg": "/smart-india-hackathon/static/media/him1.93424993452a990806c8.jpg",
+    "static/media/him3.jpg": "/smart-india-hackathon/static/media/him3.980c956eabe8d3dee136.jpg",
+    "static/media/india-flag.svg": "/smart-india-hackathon/static/media/india-flag.75500e7666d464ed7f7eba378202b9d9.svg",
+    "index.html": "/smart-india-hackathon/index.html",
+    "main.672ab607.css.map": "/smart-india-hackathon/static/css/main.672ab607.css.map",
+    "main.865f234f.js.map": "/smart-india-hackathon/static/js/main.865f234f.js.map",
+    "787.ae6287d9.chunk.js.map": "/smart-india-hackathon/static/js/787.ae6287d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672ab607.css",
+    "static/js/main.865f234f.js"
+  ]
+}
