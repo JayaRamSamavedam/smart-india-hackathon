@@ -3,7 +3,7 @@ import Switcher from './Switcher'
 import img1 from "../Static/india-flag.svg"
 import { Navigate } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+// import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 const Navbar = () => {
   
@@ -55,12 +55,7 @@ const Navbar = () => {
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
 </svg>
             </button>
-        <div class="flex justify-end col-span-1"><button data-tooltip-target="navbar-solid-bg-example-toggle-dark-mode-tooltip" type="button" data-toggle-dark="light" class="flex items-center w-9 h-9 justify-center text-xs font-medium text-gray-700 bg-white border border-gray-200 rounded-lg toggle-dark-state-example hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-800 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-            <Switcher/>
-            <span class="sr-only">Toggle dark/light mode</span>
-          </button>
-          <div id="navbar-solid-bg-example-toggle-dark-mode-tooltip" role="tooltip" class="absolute z-10 inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm tooltip dark:bg-gray-700 opacity-0 invisible" data-popper-placement="top" style={{position: "absolute", inset: "auto auto 0px 0px", margin: "0px" ,transform: "translate3d(804.8px, 8110.4px, 0px)"}}>Toggle dark mode</div>
-          </div>
+        
   </div>
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
       <div class="relative mt-3 md:hidden">

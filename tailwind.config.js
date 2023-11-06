@@ -5,8 +5,8 @@ module.exports = {
     './components/**/*.{html,js}',
   ],
   
- 
-  darkMode: 'class', // enable dark mode
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: 'class', 
   theme: {
     extend: {
       keyframes: {
